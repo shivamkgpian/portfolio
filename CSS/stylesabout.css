@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.fo{
+    color: red;
+}
+#title{
+    margin-left: 2.25rem;
+}
+
+#titleblock{
+    margin-right: 30px;
+}
+
+.navbar-item{
+    padding-right: 30px;
+}
+.photome{
+    width: 20%;
+    margin-left: 10%;
+    height: fit-content;
+    background-color: #7f8a9e;
+    border-radius: 50%;
+}
+.uppermain{
+    margin-top: 8%; 
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#lowermain {
+    position: relative;
+    width: 40%;
+}
+#lowemain {
+    float: right;
+    position: relative;
+}
+.abt h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+.abt .me{
+    font-family: 'Sacramento', cursive;
+    color: rgb(224, 86, 61);
+}

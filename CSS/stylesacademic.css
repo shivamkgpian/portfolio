@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#title{
+    margin-left: 2.25rem;
+}
+
+#titleblock{
+    margin-right: 30px;
+}
+
+.navbar-item{
+    padding-right: 30px;
+}
+.fo{
+    color: red;
+}

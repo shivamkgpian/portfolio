@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.main{
+    background-color: #FFCA03;
+    height: 700px;
+    position: relative;
+    
+}
+
+.maintxt{
+    position: relative;
+    top: 45%;
+    left: 0px;
+    backface-visibility: hidden;
+}
+.fo{
+    color: red;
+}
+.intro{
+    font-size: 4.625rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    animation-name: moveinleft;
+    animation-duration: 4s; 
+}
+.subintro{
+    display: block;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    animation-name: moveinRight;
+    animation-duration: 4s;
+}
+.geek{
+    float: right;
+    margin-top: 50px;
+    /* background-size: contain; */
+    animation-name: fadein;
+    animation-duration: 4s;
+    /* animation-timing-function: ease-out; */
+}
+
+#title{
+    margin-left: 2.25rem;
+}
+
+#titleblock{
+    margin-right: 30px;
+}
+
+.navbar-item{
+    padding-right: 30px;
+}
+.bottom-container{
+    text-align: center;
+    background-color: #dd5f20;
+    height: 90px;
+    padding: 5px 0 17px 0;
+    
+}
+.footer-link{
+    margin-top: 10px;
+    padding-right: 45px;
+}
+.copyryt{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.btn:link,.btn:visited{
+    margin-left: 150px;
+    background-color: #F78812;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+@keyframes moveinleft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes moveinRight{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
